@@ -1,4 +1,16 @@
 # FIBOS设置投票权限
+
+安装fibos.js ：
+```
+npm install fibos.js
+```
+修改 linkauth.js 和 updateauth.js 文件内用户名和私钥新权限名称.
+
+```
+fibos updateauth.js
+fibos linkauth.js
+```
+
 ## 投票权限
 ### 设置投票权限给公钥
 fibosas23333 授权 *FO83N8gjBEpRPLeXG3deyt4DiAdsSmWWk4LdGHQSUTF1w6jWWsdc* 
