@@ -4,7 +4,7 @@
 fibosas23333 授权 *FO83N8gjBEpRPLeXG3deyt4DiAdsSmWWk4LdGHQSUTF1w6jWWsdc* 
 进行投票
 ```
-cleos set account permission fibosas23333 vote '{"threshold":1,"keys":[{"key":"FO83N8gjBEpRPLeXG3deyt4DiAdsSmWWk4LdGHQSUTF1w6jWWsdc","weight":1}]}' "active" -p your_name@active
+cleos set account permission fibosas23333 vote '{"threshold":1,"keys":[{"key":"FO83N8gjBEpRPLeXG3deyt4DiAdsSmWWk4LdGHQSUTF1w6jWWsdc","weight":1}]}' "active" -p fibosas23333@active
 
 cleos set action permission fibosas23333 eosio voteproducer vote
 ```
